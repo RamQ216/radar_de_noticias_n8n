@@ -86,8 +86,8 @@ Abre el nodo **`Configuración del Radar`** y ajusta el JSON según tu empresa:
   "gemini_model": "gemini-3.8-flash",
   "region": {
     "hl": "es-419",
-    "gl": "AR",
-    "ceid": "AR:es-419"
+    "gl": "PY",
+    "ceid": "PY:es-419"
   },
   "competitors": [
     { "name": "Shopify", "query": "\"Shopify\" (ecommerce OR tienda OR pagos OR precios)", "blog_rss": "" },
@@ -97,7 +97,7 @@ Abre el nodo **`Configuración del Radar`** y ajusta el JSON según tu empresa:
 }
 ```
 
-> **Tip regional:** para México cambia `gl` a `"MX"` y `ceid` a `"MX:es-419"`; para Colombia `"CO"` / `"CO:es-419"`; para España `"ES"` / `"ES:es"`.
+> **Tip regional:** viene preconfigurado para Paraguay (`PY`). Para Argentina cambia `gl` a `"AR"` y `ceid` a `"AR:es-419"`; para México `"MX"` / `"MX:es-419"`; para Colombia `"CO"` / `"CO:es-419"`; para España `"ES"` / `"ES:es"`.
 
 ### 4. Probar y activar
 * Ejecuta una prueba manual desde **`Manual Trigger (Pruebas)`** para verificar la llegada del correo HTML.
