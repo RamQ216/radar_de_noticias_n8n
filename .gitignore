@@ -1,0 +1,15 @@
+# Archivos locales y credenciales (nunca subir secretos)
+.env
+.env.*
+*.secret.json
+credentials/
+
+# Exports temporales o logs locales
+logs/
+*.log
+tmp/
+
+# Node / OS
+node_modules/
+.DS_Store
+Thumbs.db
